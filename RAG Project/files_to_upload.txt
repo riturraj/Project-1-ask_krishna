@@ -1,0 +1,27 @@
+Files and folders to upload to Git (already staged):
+
+- .gitignore
+- README.md
+- Poorans/
+  - ask_krishna.html
+  - backend/
+    - .env
+    - .env.example
+    - data/
+      - puranas/
+        - README.md
+        - bhagavata_purana.txt
+        - devi_bhagavata.txt
+        - shiva_purana.txt
+        - vishnu_purana.txt
+    - ingest.py
+    - main.py
+    - requirements.txt
+
+These files are currently staged in Git and ready to be committed.
+
+To complete the upload:
+1. Commit the changes: git commit -m "Initial commit"
+2. Create a repository on GitHub/GitLab/etc.
+3. Add remote: git remote add origin <your-repo-url>
+4. Push: git push -u origin main
